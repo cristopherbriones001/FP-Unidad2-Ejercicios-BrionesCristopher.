@@ -1,29 +1,65 @@
 # FP-Unidad2-Ejercicios-BrionesCristopher.
-Asignatura: Fundamentos de Programación B (NRC 37712)
+Fundamentos de Programación B - NRC 37712
+
+Universidad de las Fuerzas Armadas ESPE
 
 Docente: Ing. Esteban Gonzabay Jimenez Mgtr.
 
 Estudiante: Cristopher Alexander Briones Vera
 
-Primeros pasos
+Estructura del proyecto
 
-Bienvenido al mundo de Java en VS Code. Aquí tienes una guía para ayudarte a empezar a escribir y ejecutar el ejercicio de S_9 (trazas de llamadas, alcance de parámetros y facturación de agua potable) en Visual Studio Code.
+FundamentosProgramacionB-NRC37712/
+├── README.md
+├── S_9/
+├── S_10/
+├── S_11/
+└── S_12/
 
-Estructura de carpetas
 
-El espacio de trabajo contiene dos carpetas por defecto, donde:
+Cada carpeta de sesión usa la estructura estándar de Java en Visual Studio Code:
 
-src : la carpeta para mantener los archivos fuente (.java)
+src/ : código fuente (.java).
 
-lib : la carpeta para mantener las dependencias
+lib/ : dependencias del proyecto.
 
-Mientras tanto, los archivos de salida compilados (.class) se generan en la bin carpeta por defecto.
+bin/ : archivos compilados (.class).
 
-Si desea personalizar la estructura de carpetas, abra .vscode/settings.json y actualice la configuración correspondiente.
+(Para cambiar rutas de compilación o fuentes en VS Code, editar .vscode/settings.json).
 
-Gestión de dependencias
+Sesiones
 
-Esta JAVA PROJECTS vista te permite gestionar tus dependencias. También puedes compilar y ejecutar desde la terminal:
+S_9 — Trazas de llamadas, alcance de parámetros y facturación de agua
 
+Ejercicios sobre paso de parámetros, seguimiento de ejecución entre métodos y cálculo de consumo y planilla de agua potable.
+
+cd S_9
+javac -d bin src/*.java
+java -cp bin Main
+
+
+S_10 — Calificaciones de estudiantes
+
+Programa en consola para ingresar notas, validar datos, calcular promedios y determinar el estado académico de los estudiantes.
+
+cd S_10
+javac -d bin src/*.java
+java -cp bin Main
+
+
+S_11 — Menú de geometría
+
+Menú interactivo en consola para calcular áreas y perímetros de distintas figuras geométricas usando métodos separados por operación.
+
+cd S_11
+javac -d bin src/*.java
+java -cp bin Main
+
+
+S_12 — Reto: Números de Armstrong
+
+Programa que descompone los dígitos de un número entero y comprueba si es un número de Armstrong.
+
+cd S_12
 javac -d bin src/*.java
 java -cp bin Main
