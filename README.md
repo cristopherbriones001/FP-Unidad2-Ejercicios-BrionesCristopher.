@@ -10,11 +10,11 @@ Estudiante: Cristopher Alexander Briones Vera
 Estructura del proyecto
 
 FundamentosProgramacionB-NRC37712/
-├── README.md
-├── S_9/
-├── S_10/
-├── S_11/
-└── S_12/
+ README.md
+ S_9/
+ S_10/
+ S_11/
+ S_12/
 
 
 Cada carpeta de sesión usa la estructura estándar de Java en Visual Studio Code:
