@@ -7,21 +7,17 @@
  */
 
 public class Ej01_MarcarAmbito {
-
-    // Ámbito: static (pertenece a la clase durante toda la ejecución del programa)
+    
     static int totalProcesados = 0;
-
     public static void main(String[] args) {
-        // Ámbito: local al método main (visible desde su declaración hasta el cierre de main)
         int limite = 3;
 
-        // 'i' tiene ámbito: de bloque (pertenece al encabezado y cuerpo del ciclo for)
         for (int i = 1; i <= limite; i++) {
-            // Ámbito: de bloque (existe solo dentro de esta iteración del for)
+            
             int parcial = i * 10;
 
             if (parcial >= 20) {
-                // Ámbito: de bloque (existe solo dentro del bloque if)
+               
                 String mensaje = "Alto";
                 System.out.println(i + " -> " + parcial + " (" + mensaje + ")");
             } else {
