@@ -1,4 +1,10 @@
+Fundamentos de Programación B - NRC 37712
 
+Universidad de las Fuerzas Armadas ESPE
+
+Docente: Ing. Esteban Gonzabay Jimenez Mgtr.
+
+Estudiante: Cristopher Alexander Briones Vera
 
 Ejercicios trabajados aquí:
 - `Ej01_EsMultiplo.java`: comprueba si el primer número es múltiplo del segundo con `%`, evitando dividir entre 0.
