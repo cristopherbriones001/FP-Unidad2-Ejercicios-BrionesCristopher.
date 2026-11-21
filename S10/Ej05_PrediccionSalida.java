@@ -6,16 +6,6 @@
  * Fecha: 20/11/2026
  */
 
-/*
- * SALIDA PREDICHA (antes de ejecutar):
- * Llamada 1 -> resultado: 14, base en main: 4
- * Llamada 2 -> resultado: 18, base en main: 4
- * Llamada 3 -> resultado: 26, base en main: 4
- *
- * Justificación: 'duplicarYSumar' recibe una copia de 'base' (4), multiplica por 2 y suma 'extra',
- * sin alterar la variable 'base' declarada en main.
- */
-
 public class Ej05_PrediccionSalida {
 
     public static int duplicarYSumar(int numero, int extra) {
