@@ -1,6 +1,10 @@
-# Primeros pasos
+Fundamentos de Programación B - NRC 37712
 
-Bienvenido al mundo de Java en VS Code. Aquí tienes una guía para ayudarte a empezar a escribir código Java en Visual Studio Code.
+Universidad de las Fuerzas Armadas ESPE
+
+Docente: Ing. Esteban Gonzabay Jimenez Mgtr.
+
+Estudiante: Cristopher Alexander Briones Vera
 
 ## Archivos de la sesión
 
@@ -10,3 +14,5 @@ Bienvenido al mundo de Java en VS Code. Aquí tienes una guía para ayudarte a e
 * `Ej04_ValidadorPassword.java` : valida los caracteres de una contraseña.
 * `Ej05_NumeroArmstrong.java` : comprueba si un número es de Armstrong.
 * `README.md` : describe los ejercicios de esta sesión.
+
+Se usaron las funciones que ya trae Java (`Math`, `String`, `Character`) para no hacer esas operaciones desde cero.
