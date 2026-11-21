@@ -6,25 +6,6 @@
  * Fecha: 20/11/2026
  */
 
-/*
- * Versión original con 3 atributos static (comentada):
- *
- * public class OriginalConStatic {
- *     static double precioUnitario = 12.0;
- *     static int cantidad = 3;
- *     static double descuentoPct = 10.0;
- *
- *     public static double calcularTotal() {
- *         double subtotal = precioUnitario * cantidad;
- *         return subtotal - (subtotal * descuentoPct / 100.0);
- *     }
- *
- *     public static void main(String[] args) {
- *         System.out.println("Total: " + calcularTotal());
- *     }
- * }
- */
-
 public class Ej04_ReescribirSinStatic {
 
     public static double calcularTotal(double precioUnitario, int cantidad, double descuentoPct) {
