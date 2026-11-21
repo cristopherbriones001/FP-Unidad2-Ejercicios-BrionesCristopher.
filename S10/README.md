@@ -1,12 +1,18 @@
-# Primeros pasos
+Fundamentos de Programación B - NRC 37712
 
-Bienvenido al mundo de Java en VS Code. Aquí tienes una guía para ayudarte a empezar a escribir código Java en Visual Studio Code.
+Universidad de las Fuerzas Armadas ESPE
 
-## Archivos de la sesión
+Docente: Ing. Esteban Gonzabay Jimenez Mgtr.
 
-* `Ej01_IntercambiarPrimitivos.java` : prueba el intercambio de valores primitivos en un método.
-* `Ej02_IntercambiarArreglo.java` : intercambia elementos dentro de un arreglo.
-* `Ej03_AplicarDescuento.java` : calcula el valor final aplicando un descuento.
-* `Ej04_SobrecargaPerimetro.java` : calcula perímetros usando métodos sobrecargados.
-* `Ej05_PrediccionSalida.java` : muestra y analiza la salida en consola.
-* `README.md` : describe los ejercicios de esta sesión.
+Estudiante: Cristopher Alexander Briones Vera
+
+Qué hay en esta carpeta:
+- `Ej01_IntercambiarPrimitivos.java`: intenta intercambiar dos `int` pasando variables a un método.
+- `Ej02_IntercambiarArreglo.java`: cambia de posición elementos de un arreglo `int[]`.
+- `Ej03_AplicarDescuento.java`: calcula cuánto queda un precio con descuento.
+- `Ej04_SobrecargaPerimetro.java`: calcula perímetros usando métodos con el mismo nombre pero distintos parámetros.
+- `Ej05_PrediccionSalida.java`: sigue el orden en que se imprimen valores y cambian datos.
+
+¿Por qué no funciona el intercambio de primitivos en `Ej01`? Porque Java pasa los primitivos por valor, o sea, el método recibe copias; si cambio algo ahí adentro, las variables del `main` siguen igual. En cambio, con un arreglo (`Ej02`), la referencia apunta al mismo arreglo en memoria y por eso los cambios en sus posiciones sí se notan afuera. En `Ej04` la sobrecarga sirve para tener varias versiones de `calcularPerimetro` según los parámetros que le mande.
+
+Se compila y ejecuta desde VS Code o con `javac` / `java` en terminal.
