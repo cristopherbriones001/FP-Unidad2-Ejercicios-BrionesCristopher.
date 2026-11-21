@@ -6,14 +6,6 @@
  * Fecha: 20/11/2026
  */
 
-/*
- * ¿Funciona? No, no intercambia las variables x e y de main.
- * ¿Por qué? Porque Java siempre pasa argumentos por valor. Al llamar a intercambiar(x, y),
- * los parámetros formales 'a' y 'b' reciben copias independientes de los valores almacenados
- * en 'x' e 'y' dentro del marco de pila del método. Intercambiar 'a' y 'b' solo afecta a esas
- * copias locales y se pierden cuando el método termina; 'x' e 'y' en main conservan sus valores.
- */
-
 public class Ej01_IntercambiarPrimitivos {
 
     public static void intercambiar(int a, int b) {
