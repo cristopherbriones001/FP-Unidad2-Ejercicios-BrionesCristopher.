@@ -6,14 +6,6 @@
  * Fecha: 20/11/2026
  */
 
-/*
- * ¿Ahora sí funciona? Sí, los elementos en las posiciones i y j del arreglo quedan intercambiados.
- * Explicación: Aunque Java sigue pasando argumentos por valor, el valor copiado al parámetro 'v'
- * es la referencia (dirección) hacia el mismo objeto arreglo ubicado en el montículo (heap).
- * Por ello, al acceder a v[i] y v[j] dentro del método, se modifica directamente el contenido
- * del arreglo compartido que 'datos' en main también referencia.
- */
-
 public class Ej02_IntercambiarArreglo {
 
     public static void intercambiar(int[] v, int i, int j) {
