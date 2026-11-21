@@ -15,4 +15,4 @@ Ejercicios trabajados aquí:
 
 Lo que fui viendo con estos códigos es que separar tareas en métodos deja el `main` más limpio. Cuando solo necesito mostrar algo en pantalla uso `void`; si el resultado me sirve luego para otra operación, hago que el método retorne el dato.
 
-Para probarlo en VS Code se abre el archivo y se corre ahí mismo, o en consola con `javac` y `java`.
+
