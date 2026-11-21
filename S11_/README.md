@@ -12,6 +12,4 @@ Archivos de la sesión:
 - `Ej03_MenuCalculadora.java`: menú en consola repartiéndolo en métodos.
 - `Ej04_ReescribirSinStatic.java`: cambia el enfoque usando un objeto de la clase en vez de tanto `static`.
 
-En esta parte me quedó más claro el alcance (`scope`): si declaras algo dentro de un bloque (`if`, `for`, etc.), fuera de esas llaves ya no existe y da error de compilación. Con `static`, el dato queda ligado a la clase y se mantiene durante la ejecución (útil para contar llamadas), mientras que sin `static` toca crear una instancia (`new ...`) para usar los métodos de instancia.
-
-Para correrlos: VS Code o `javac Archivo.java` seguido de `java Archivo`.
+ELas variables creadas dentro de un `if` o `for` solo sirven ahí adentro; si se sacan da error.
