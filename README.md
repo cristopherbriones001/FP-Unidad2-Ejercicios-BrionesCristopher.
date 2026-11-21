@@ -16,21 +16,26 @@ FundamentosProgramacionB-NRC37712/
   S11/
   S12/
 
+Ejercicios (19)
 
-Contenido por sesión
+1. EsMultiplo
+2. ImprimirTabla
+3. Promedio3
+4. IvaIncluido
+5. EsBisiesto
+6. IntercambiarPrimitivos
+7. IntercambiarArreglo
+8. AplicarDescuento
+9. SobrecargaPerimetro
+10. PrediccionSalida
+11. ContarLlamadas
+12. AlcanceBloque
+13. MenuCalculadora
+14. ReescribirSinStatic
+15. Hipotenusa
+16. DadoAleatorio
+17. AnalizadorTexto
+18. ValidadorPassword
+19. NumeroArmstrong
 
-S_9 — Trazas de llamadas, alcance de parámetros y facturación de agua
-
-Ejercicios en Java sobre paso de parámetros, seguimiento de ejecución entre métodos y cálculo de planillas de consumo de agua potable.
-
-S_10 — Calificaciones de estudiantes
-
-Programa en Java para registrar notas, validar datos, calcular promedios y determinar el estado académico de los estudiantes.
-
-S_11 — Menú de geometría
-
-Aplicación en consola en Java con un menú interactivo para calcular áreas y perímetros de distintas figuras geométricas mediante métodos.
-
-S_12 — Reto: Números de Armstrong
-
-Algoritmo en Java para descomponer los dígitos de un número entero y verificar si cumple la condición de número de Armstrong.
+Para ir entendiendo cómo funcionan los métodos y resolver errores me apoyé en IA, y también vi videos en YouTube para ubicarme mejor con los pasos y el repositorio.
