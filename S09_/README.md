@@ -1,11 +1,12 @@
-# Primeros pasos
 
-Bienvenido al mundo de Java en VS Code. Aquí tienes una guía para ayudarte a empezar a escribir código Java en Visual Studio Code.
 
-## Archivos de la sesión
+Ejercicios trabajados aquí:
+- `Ej01_EsMultiplo.java`: comprueba si el primer número es múltiplo del segundo con `%`, evitando dividir entre 0.
+- `Ej02_ImprimirTabla.java`: saca la tabla del 1 al 12 en un método `void`.
+- `Ej03_Promedio3.java`: promedia tres notas y devuelve el resultado.
+- `Ej04_IvaIncluido.java`: suma el IVA a un valor base.
+- `Ej05_EsBisiesto.java`: revisa si un año es bisiesto.
 
-* `Ej01_EsMultiplo.java` : comprueba si un número es múltiplo de otro.
-* `Ej02_ImprimirTabla.java` : imprime la tabla de multiplicar del 1 al 12.
-* `Ej03_Promedio3.java` : calcula el promedio de tres calificaciones.
-* `Ej04_IvaIncluido.java` : calcula el precio sumando el IVA.
-* `Ej05_EsBisiesto.java` : determina si un año es bisiesto.
+Lo que fui viendo con estos códigos es que separar tareas en métodos deja el `main` más limpio. Cuando solo necesito mostrar algo en pantalla uso `void`; si el resultado me sirve luego para otra operación, hago que el método retorne el dato.
+
+Para probarlo en VS Code se abre el archivo y se corre ahí mismo, o en consola con `javac` y `java`.
