@@ -13,6 +13,4 @@ Qué hay en esta carpeta:
 - `Ej04_SobrecargaPerimetro.java`: calcula perímetros usando métodos con el mismo nombre pero distintos parámetros.
 - `Ej05_PrediccionSalida.java`: sigue el orden en que se imprimen valores y cambian datos.
 
-¿Por qué no funciona el intercambio de primitivos en `Ej01`? Porque Java pasa los primitivos por valor, o sea, el método recibe copias; si cambio algo ahí adentro, las variables del `main` siguen igual. En cambio, con un arreglo (`Ej02`), la referencia apunta al mismo arreglo en memoria y por eso los cambios en sus posiciones sí se notan afuera. En `Ej04` la sobrecarga sirve para tener varias versiones de `calcularPerimetro` según los parámetros que le mande.
-
-Se compila y ejecuta desde VS Code o con `javac` / `java` en terminal.
+En `Ej01` los `int` no cambian afuera porque se pasa una copia, pero en el arreglo (`Ej02`) sí cambian porque apunta al mismo arreglo.
