@@ -11,10 +11,10 @@ Estructura del repositorio
 
 FundamentosProgramacionB-NRC37712/
  README.md
-  S_9/
-  S_10/
-  S_11/
-  S_12/
+  S09/
+  S10/
+  S11/
+  S12/
 
 
 Contenido por sesión
